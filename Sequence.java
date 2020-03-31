@@ -23,7 +23,7 @@ public abstract class Sequence <T> extends Packet{
 		for (int i = 0; i < buffer.length; i++){
 			temp = temp + buffer[i] + ", ";
 			}
-		result_seq = result_pack + ", \nChannel Number = " + channelNr + ", \nUnit = " + unit + ", \nResolultion = " + resolution + ", \nBuffer = " + temp;
+		result_seq = result_pack + ", \nChannel Number = " + channelNr + ", \nUnit = " + unit + ", \nResolution = " + resolution + ", \nBuffer = " + temp;
 		return result_seq;
 		}
 }
